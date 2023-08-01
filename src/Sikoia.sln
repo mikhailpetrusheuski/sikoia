@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8E9CFC54-DD48-4326-AF8D-A91FB450BC3C}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+		..\.dockerignore = ..\.dockerignore
+		..\README.md = ..\README.md
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{767C9D03-6698-439D-931E-8AF68D2DA69A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Apps", "Web Apps", "{657FBC17-6E0B-4B3C-8B82-6F41D0400BB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D9C05D23-DDC3-4D77-B557-465CCC849D30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sikoia.Api", "Web\Sikoia.Api\Sikoia.Api.csproj", "{5986F574-767B-4E28-9DA0-C8A2CB72587B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integrations", "Integrations", "{00D5F37E-0A74-4D8A-BF37-2DE8F0AE80F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B0F18A99-4AA7-4EB2-8041-48EDF4C2A59C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{657FBC17-6E0B-4B3C-8B82-6F41D0400BB7} = {767C9D03-6698-439D-931E-8AF68D2DA69A}
+		{D9C05D23-DDC3-4D77-B557-465CCC849D30} = {767C9D03-6698-439D-931E-8AF68D2DA69A}
+		{5986F574-767B-4E28-9DA0-C8A2CB72587B} = {657FBC17-6E0B-4B3C-8B82-6F41D0400BB7}
+		{00D5F37E-0A74-4D8A-BF37-2DE8F0AE80F6} = {767C9D03-6698-439D-931E-8AF68D2DA69A}
+		{B0F18A99-4AA7-4EB2-8041-48EDF4C2A59C} = {767C9D03-6698-439D-931E-8AF68D2DA69A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5986F574-767B-4E28-9DA0-C8A2CB72587B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5986F574-767B-4E28-9DA0-C8A2CB72587B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5986F574-767B-4E28-9DA0-C8A2CB72587B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5986F574-767B-4E28-9DA0-C8A2CB72587B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
